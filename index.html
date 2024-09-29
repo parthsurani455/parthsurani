@@ -1,151 +1,108 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  my portfolio </title>
+    <title> Job Application </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <div class="logo"> My Portfolio </div>
-            <ul>
-
-                <a href="#hero">
-                    <li> Home</li>
-                </a>
-
-                <a href="#projrct">
-                    <li> Project</li>
-                </a>
-
-                <a href="#contact">
-                    <li> Contact </li>
-                </a>
-
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="hero">
-            <div class="container">
-                
-                <div class="hero-img animate__animated animate__backInLeft">
-                    <img src="hero.png" alt="hero img"> 
-                </div>
-    
-                <div class="hero-content">
-                    <h1>
-                        <span class="hi-text"> Hi </span> , I am <span class="name-text"> Parth Surani </span>
-                    </h1>
-                    <h2> Frontend Developer </h2>
-                </div>
-            </div>
-        </section>
-
-        <section id="project"> 
-            <h2>
-                PROJECTS
-            </h2>
-            <div class="container">
-                <div class="project-container">
-                    <div class="grid-item">
-                        <div class="card">
-                            <img src="project1.png" alt="project1">
-                            <div class="card-content">
-                                <h3>Tribute Website</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="grid-item">
-                        <div class="card">
-                            <img src="project2.png" alt="project2">
-                            <div class="card-content">
-                                <h3> Job Aplication</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="grid-item">
-                        <div class="card">
-                            <img src="project3.png" alt="project 3">
-                            <div class="card-content">
-                                <h3> Parallax Website</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="grid-item">
-                        <div class="card">
-                            <img src="project4.png" alt="project 4">
-                            <div class="card-content">
-                                <h3> Landing page</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="grid-item">
-                        <div class="card">
-                            <img src="project5.png" alt="project 5">
-                            <div class="card-content">
-                                <h3>Restaurent website</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-<!-- contnact section -->
-
-        <section id="contact">
-            <div class="container">
-                <h2>Let's  Work Together...</h2>
-                <div class="top-contact">
-                    <div class="contact-way">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <h3>Link In</h3>
-                    </div>
-                    <div class="contact-way">
-                        <i class="fa-brands fa-twitter"></i>
-                        <h3>Twitter</h3>
-                    </div>
-                    <div class="contact-way">
-                        <h3> @ Send Mail </h3>
-                    </div>
-                    
-                <div class="bottom-contact">
-                    <div class="contact-way">
-                        <i class="fa-brands fa-github"></i>
-                        <h3>GitHub</h3>
-                    </div>
-                    <div class="contact-way">
-                        <i class="fa fa-mobile"></i>
-                        <h3>Mobile</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-<!-- footer section  -->
-
-<footer>
     <div class="container">
-        Created By Parth Surani
+        <div class="apply-box">
+            <h1> Job Application 
+                <span class="title-small"> (web)</span>
+            </h1>
+            <form action="">
+                <div class="form-container">
+
+
+
+                    <div class="form-control" >
+                        <label for=" first-name"> Frist Name </label>
+                        <input id="first-name"
+                        name="First Name"
+                        placeholder="Enter Your First Name"/>
+                    </div>
+
+
+                    <div class="form-control" >
+                        <label for=" last-name"> Lasr name </label>
+                        <input id="last-name"
+                        name="last Name"
+                        placeholder="Enter Your Last Name "/>
+                    </div>
+
+
+                    <div class="form-control" >
+                        <label for=" email"> Email </label>
+                        <input type="email" id="email"
+                        name="email"
+                        placeholder="Enter Email.. "/>
+                    </div>
+
+
+                    <div class="form-control" >
+                        <label for="job-role"> Job Role </label>
+                        <select id="job-role" name=" Job Role" >
+                            <option value=""> Select Job Role </option>
+                            <option value="frontend"> Frontend Developer</option>
+                            <option value="backend"> Backend Developer </option>
+                            <option value="full-stack"> FUll Stack Developer    </option>
+                            <option value="ui-ux"> UI UX Developer </option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-control" >
+                        <label for=" address"> Address </label>
+                        <textarea name="address" id=" address" rows="4"  cols="50" placeholder="Enter Adresss"></textarea>
+                    </div>
+
+
+                    <div class="form-control" >
+                        <label for=" city "> City </label>
+                        <input id="city"
+                        name="city"
+                        placeholder="Enter Your City Name"/>
+                    </div>
+
+
+
+                    <div class="form-control" >
+                        <label for=" pincode"> Pincode </label>
+                        <input   type="number"  id="pincode"
+                        name="pincode"
+                        placeholder="Enter Your pindcode"/>
+                    </div>
+
+
+
+                    <div class="form-control" >
+                        <label for="date"> Date </label>
+                        <input   type="date"  id="date"
+                        name="date" />
+                    </div>
+
+
+
+                    <div class="form-control" >
+                        <label for="upload"> Upload Your CV </label>
+                        <input   type="file"  id="uload"
+                        name="upload" />
+                    </div>
+
+                    
+                </div>
+
+
+                <div class="button-container">
+                    <button type="submit"> Apply Now 
+                    </button>
+                </div>
+
+
+            </form>
+        </div>
     </div>
-</footer>
 </body>
 </html>
